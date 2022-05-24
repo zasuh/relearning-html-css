@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Styles */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  height: 835px;
+  width: 550px;
+  background-color: white;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.navbar {
+  width: calc(100% - 60px);
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 22px 30px;
+  margin-bottom: 26px;
+}
+
+.logo {
+  height: 25px;
+  width: 82px;
+}
+
+.masonry {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.masonry-img {
+  width: 395px;
+  height: 232px;
+  margin-bottom: 32px;
+}
+
+
+header {
+  width: calc(100% - 60px);
+  padding: 0 30px;
+  margin-bottom: 41px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  max-width: 320px;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 0px 30px;
+}
+
+.gallery-item {
+  height: 302px;
+  width: 176px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.main-image {
+  width: 176px;
+  height: 235px;
+}
+
+.gallery-item .description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+}
+
+.star {
+  width: 14px;
+  height: 14px;
+}
+
+.rating-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+.img-tag {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 61px;
+  height: 20px;
+  background-color: white;
+  border-radius: 2px;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
